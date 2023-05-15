@@ -3,32 +3,35 @@
 
 #include <string>
 #include <vector>
-#include <unordered_map>
+#include <map>
 
-class Message
-{
-protected:
-	std::unordered_map<std::string, std::string> headers{};
-public:
-	std::string& getHeader(std::string);
-};
+#include <SDL_net.h>
 
-class Request : public Message
+class Request
 {
 private:
+	std::map<const std::string, std::string> headers{};
 	std::string method{};
 	std::string file{};
 	std::string body{};
 public:
-	Request(std::vector<char>);
+	const std::string& getHeader(std::string) const;
+	const std::string& getFile() const;
+	const std::string& getMethod() const;
+	const std::string& getBody() const;
+	Request(TCPsocket);
 };
 
-class Response : public Message
+class Response
 {
 private:
 	int status{};
+	std::vector<char> content{};
 public:
-	Response(int, std::string, std::string);
+	bool valid{};
+	Response();
+	Response(std::string, std::string);
+	void send(TCPsocket) const;
 };
 
 #endif
