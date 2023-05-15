@@ -1,7 +1,7 @@
 let camera = {
-	x: 0,
-	y: 0,
-	z: 3
+	x: -1200,
+	y: -1100,
+	z: 4
 }
 
 let mouse = {
@@ -15,8 +15,6 @@ let map = document.getElementById("map");
 function mod(n, m) {
 	return ((n % m) + m) % m;
 }
-
-let tiles = [[[]]];
 
 function updateTiles() {
 	map.innerHTML = "";
@@ -35,15 +33,13 @@ function updateTiles() {
 			if (!exists) {
 				img.setAttribute("class", "tile");
 				img.draggable = false;
-				img.style.left = `${startX * 256 + (camera.x % 256) + 128}px`;
-				img.style.top = `${startY * 256 + (camera.y % 256) + 256}px`;
+				img.style.left = `${startX * 256 + (camera.x % 256)}px`;
+				img.style.top = `${startY * 256 + (camera.y % 256)}px`;
 				map.appendChild(img);
 			}
 		}
 	}
 }
-
-updateTiles();
 
 window.addEventListener("mousemove", e => {
 	if (mouseDown) {
@@ -62,7 +58,7 @@ window.addEventListener("mouseup", e => {
 })
 
 window.addEventListener("wheel", e => {
-	if (e.deltaY > 0 && camera.z > 3) {
+	if (e.deltaY > 0 && camera.z > 4) {
 		camera.z--;
 		camera.x += e.clientX;
 		camera.y += e.clientY;
@@ -78,3 +74,21 @@ window.addEventListener("wheel", e => {
 	}
 	updateTiles();
 })
+
+let chatButton = document.getElementById("chat");
+let searchButton = document.getElementById("search");
+let pinButton = document.getElementById("pin");
+
+chatButton.addEventListener("click", () => {
+	window.location.href = "chat.html";
+});
+
+searchButton.addEventListener("click", () => {
+	window.location.href = "search.html";
+});
+
+pinButton.addEventListener("click", () => {
+	window.location.href = "pin.html";
+});
+
+updateTiles();

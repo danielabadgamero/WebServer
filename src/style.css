@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .logo {
 	margin: auto;
 	display: flex;
@@ -5,9 +7,9 @@
 }
 
 #logo_img {
-	opacity: 0.2;
-	height: 30vh;
-	width: 60vh;
+	opacity: 0.5;
+	height: 20vh;
+	width: 50vh;
 	object-fit: cover;
 	position: absolute;
 	z-index: 1;
@@ -30,4 +32,69 @@
 	margin: 0;
 	user-select: none;
 	position: absolute;
+}
+
+#button_bar {
+	display: flex;
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	bottom: 10vh;
+	display: flex;
+	justify-content: center;
+	gap: 10vw;
+}
+
+body {
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+}
+
+#button_bar > img {
+	background-color: #fe0;
+	padding: 5px;
+	border-radius: 10px;
+	border: solid 0;
+	user-select: none;
+	user-drag: none;
+}
+
+#button_bar > img:hover {
+	cursor: pointer;
+}
+
+#back {
+	position: absolute;
+	border: solid 0;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	background-color: #fe0;
+	color: #000;
+	margin: 20px;
+	padding: 0 20px 0 20px;
+}
+
+#back:hover {
+	cursor: pointer;
+}
+
+#results {
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+input[name=s] {
+	width: 30vw;
+	height: 30px;
+	border: solid 0;
+	font-weight: 300;
+	font-size: 1.2em;
+	border-radius: 15px;
+	padding-left: 20px;
 }

@@ -46,12 +46,12 @@ Request::Request(TCPsocket client)
 	std::vector<char> content{};
 
 	int bytes{};
-	do if (SDLNet_CheckSockets(Core::set, 0), 100)
+	do if (SDLNet_CheckSockets(Core::set, 0))
 		content.push_back(0), (bytes = SDLNet_TCP_Recv(client, &content.back(), 1));
 	else bytes = 0;
 	while (bytes);
 
-	if (content.empty()) { valid = false;  return; }
+	if (content.empty()) return;
 
 	std::vector<std::string> lines(1);
 	for (const char& c : content)
@@ -63,6 +63,7 @@ Request::Request(TCPsocket client)
 		if (c == ' ') firstLine.push_back("");
 		else firstLine.back().push_back(c);
 	
+	if (firstLine.size() < 2) return;
 	method = firstLine[0];
 	file = firstLine[1];
 	
@@ -89,7 +90,6 @@ Request::Request(TCPsocket client)
 			body.append(lines[i]), body.push_back('\n');
 	if (!body.empty())
 		body.pop_back();
-	valid = true;
 }
 
 Response::Response() {}

@@ -53,17 +53,13 @@ void Core::loop()
 		std::cout << "Client connected with IP: " << printIP(*remoteIP);
 
 		Request req{};
-
-		do
-		{
-			req = { client };
-			Response msg{};
-			if (req.getMethod() == "GET")
-				msg = { req.getHeader("accept"), req.getFile() };
-			if (msg.valid)
-				msg.send(client);
-		}
-		while (req.valid);
+		
+		req = { client };
+		Response msg{};
+		if (req.getMethod() == "GET")
+			msg = { req.getHeader("accept"), req.getFile() };
+		if (msg.valid)
+			msg.send(client);
 
 		SDLNet_TCP_Close(client);
 		SDLNet_TCP_DelSocket(set, client);
