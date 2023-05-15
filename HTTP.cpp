@@ -8,6 +8,7 @@
 
 #include "HTTP.h"
 #include "Core.h"
+#include "Map.h"
 
 static const std::string lowerCase(std::string& str)
 {
@@ -48,6 +49,8 @@ Request::Request(TCPsocket client)
 		content.push_back(0), (bytes = SDLNet_TCP_Recv(client, &content.back(), 1));
 	else bytes = 0;
 	while (bytes);
+
+	if (content.empty()) return;
 
 	std::vector<std::string> lines(1);
 	for (const char& c : content)
@@ -91,12 +94,14 @@ Response::Response(std::string type, std::string file)
 {
 	std::string name{ file };
 	if (file == "/") name = "index.html";
-	content.resize(1);
+	else if (file.starts_with("/tiles/")) Map::getTile(file);
+
 	if (!std::filesystem::exists("src/" + name)) status = 404;
 	else
 	{
 		std::ifstream in{ "src/" + name, std::ios::binary };
-		while (!in.eof()) in.read(&content.back(), 1), content.push_back(0);
+		while (!in.eof()) content.push_back(0), in.read(&content.back(), 1);
+		content.pop_back();
 		status = 200;
 	}
 	std::string firstLine{ "HTTP/2 " + std::to_string(status) + "\nContent-type: " + type + "\nConnection: close\n\n" };

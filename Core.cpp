@@ -7,6 +7,7 @@
 #include <SDL_net.h>
 
 #include "Core.h"
+#include "Map.h"
 #include "HTTP.h"
 
 void printMsg(std::vector<char>& msg)
@@ -35,6 +36,8 @@ void Core::init()
 	server = SDLNet_TCP_Open(&ip);
 	std::cout << "Socket opened\n";
 	std::cout << SDLNet_GetError();
+
+	Map::init();
 
 	running = true;
 }
