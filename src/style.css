@@ -9,4 +9,25 @@
 	height: 30vh;
 	width: 60vh;
 	object-fit: cover;
+	position: absolute;
+	z-index: 1;
+}
+
+#map {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: 0;
+	user-select: none;
+}
+
+.tile {
+	z-index: -1;
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	position: absolute;
 }

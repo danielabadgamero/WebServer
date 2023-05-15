@@ -25,7 +25,8 @@ void Map::getTile(std::string address)
 		
 		while (true)
 			if (content.front() == -119) break;
-			else content.erase(content.begin());
+			else if (!content.empty()) content.erase(content.begin());
+			else goto retry;
 
 		std::string dirs{ address };
 		while (true)
