@@ -21,8 +21,8 @@ let tiles = [[[]]];
 function updateTiles() {
 	map.innerHTML = "";
 	let max = Math.trunc(Math.pow(2, camera.z));
-	for (let startY = -1; startY != Math.trunc(window.outerHeight / 256) + 3; startY++) {
-		for (let startX = -1; startX != Math.trunc(window.outerWidth / 256) + 3; startX++) {
+	for (let startY = 0; startY != Math.trunc(window.outerHeight / 256) + 3; startY++) {
+		for (let startX = 0; startX != Math.trunc(window.outerWidth / 256) + 3; startX++) {
 			let exists = false;
 			let img = document.createElement("img");
 			img.src = `/tiles/${camera.z}/${mod(Math.trunc(startX - camera.x / 256), max)}/${mod(Math.trunc(startY - camera.y / 256), max)}.png`
@@ -50,10 +50,6 @@ window.addEventListener("mousemove", e => {
 		camera.x += e.movementX;
 		camera.y += e.movementY;
 		updateTiles();
-		map.childNodes.forEach(tile => {
-			tile.style.left = `${parseInt(tile.style.left) + e.movementX}px`;
-			tile.style.top = `${parseInt(tile.style.top) + e.movementY}px`;
-		});
 	}
 });
 

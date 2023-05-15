@@ -31,6 +31,7 @@ void Map::getTile(std::string address)
 		std::string dirs{ address };
 		while (true)
 			if (dirs.back() == '/') break;
+			else if (dirs.empty()) return;
 			else dirs.pop_back();
 
 		std::filesystem::create_directories("./src" + dirs);

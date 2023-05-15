@@ -46,7 +46,7 @@ Request::Request(TCPsocket client)
 	std::vector<char> content{};
 
 	int bytes{};
-	do if (SDLNet_CheckSockets(Core::set, 0))
+	do if (SDLNet_CheckSockets(Core::set, 0), 100)
 		content.push_back(0), (bytes = SDLNet_TCP_Recv(client, &content.back(), 1));
 	else bytes = 0;
 	while (bytes);
@@ -76,6 +76,7 @@ Request::Request(TCPsocket client)
 				if (c == ' ') line.push_back("");
 				else if (c == ',') break;
 				else line.back().push_back(c);
+			if (line.empty()) continue;
 
 			line[0].pop_back();
 			headers.emplace(lowerCase(line[0]), "");
@@ -103,7 +104,8 @@ Response::Response(std::string type, std::string file)
 	{
 		std::ifstream in{ "src/" + name, std::ios::binary };
 		while (!in.eof()) content.push_back(0), in.read(&content.back(), 1);
-		content.pop_back();
+		if (!content.empty())
+			content.pop_back();
 		status = 200;
 	}
 	std::string firstLine{ "HTTP/2 " + std::to_string(status) + "\nContent-type: " + type + "\nConnection: keep-alive\n\n" };
