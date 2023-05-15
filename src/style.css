@@ -1,12 +1,12 @@
 .logo {
-    margin: auto;
-    display: flex;
-    justify-content: center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
 }
 
 #logo_img {
-    opacity: 0.2;
-    height: 30vh;
-    width: 60vh;
-    object-fit: cover;
+	opacity: 0.2;
+	height: 30vh;
+	width: 60vh;
+	object-fit: cover;
 }
