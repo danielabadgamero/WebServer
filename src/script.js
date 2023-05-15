@@ -1,7 +1,7 @@
 let camera = {
 	x: 0,
 	y: 0,
-	z: 0
+	z: 3
 }
 
 let mouse = {
@@ -12,14 +12,20 @@ let mouse = {
 let mouseDown = false;
 let map = document.getElementById("map");
 
+function mod(n, m) {
+	return ((n % m) + m) % m;
+}
+
+let tiles = [[[]]];
+
 function updateTiles() {
 	map.innerHTML = "";
-	for (let startY = 0; startY != Math.trunc(window.outerHeight / 256) + 2; startY++) {
-		for (let startX = 0; startX != Math.trunc(window.outerWidth / 256) + 2; startX++) {
+	let max = Math.trunc(Math.pow(2, camera.z));
+	for (let startY = -1; startY != Math.trunc(window.outerHeight / 256) + 3; startY++) {
+		for (let startX = -1; startX != Math.trunc(window.outerWidth / 256) + 3; startX++) {
 			let exists = false;
-			let max = Math.trunc(Math.pow(2, camera.z));
 			let img = document.createElement("img");
-			img.src = `/tiles/${camera.z}/${Math.trunc(startX + camera.x / 256) % max}/${Math.trunc(startY + camera.y / 256) % max}.png`
+			img.src = `/tiles/${camera.z}/${mod(Math.trunc(startX - camera.x / 256), max)}/${mod(Math.trunc(startY - camera.y / 256), max)}.png`
 			map.childNodes.forEach(tile => {
 				if (img.src == tile.src) {
 					exists = true;
@@ -29,8 +35,8 @@ function updateTiles() {
 			if (!exists) {
 				img.setAttribute("class", "tile");
 				img.draggable = false;
-				img.style.left = `${startX * 256 + camera.x}px`;
-				img.style.top = `${startY * 256 + camera.y}px`;
+				img.style.left = `${startX * 256 + (camera.x % 256) + 128}px`;
+				img.style.top = `${startY * 256 + (camera.y % 256) + 256}px`;
 				map.appendChild(img);
 			}
 		}
