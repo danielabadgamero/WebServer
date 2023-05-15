@@ -40,6 +40,7 @@ const std::string& Request::getBody() const
 	return body;
 }
 
+Request::Request() {}
 Request::Request(TCPsocket client)
 {
 	std::vector<char> content{};
@@ -50,7 +51,7 @@ Request::Request(TCPsocket client)
 	else bytes = 0;
 	while (bytes);
 
-	if (content.empty()) return;
+	if (content.empty()) { valid = false;  return; }
 
 	std::vector<std::string> lines(1);
 	for (const char& c : content)
@@ -87,6 +88,7 @@ Request::Request(TCPsocket client)
 			body.append(lines[i]), body.push_back('\n');
 	if (!body.empty())
 		body.pop_back();
+	valid = true;
 }
 
 Response::Response() {}

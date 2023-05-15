@@ -15,10 +15,12 @@ private:
 	std::string file{};
 	std::string body{};
 public:
+	bool valid{};
 	const std::string& getHeader(std::string) const;
 	const std::string& getFile() const;
 	const std::string& getMethod() const;
 	const std::string& getBody() const;
+	Request();
 	Request(TCPsocket);
 };
 

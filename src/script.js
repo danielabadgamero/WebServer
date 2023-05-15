@@ -66,7 +66,7 @@ window.addEventListener("mouseup", e => {
 })
 
 window.addEventListener("wheel", e => {
-	if (e.deltaY > 0 && camera.z > 0) {
+	if (e.deltaY > 0 && camera.z > 3) {
 		camera.z--;
 		camera.x += e.clientX;
 		camera.y += e.clientY;

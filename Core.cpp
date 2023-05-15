@@ -52,12 +52,18 @@ void Core::loop()
 		IPaddress* remoteIP{ SDLNet_TCP_GetPeerAddress(client) };
 		std::cout << "Client connected with IP: " << printIP(*remoteIP);
 
-		Request req{ client };
-		Response msg{};
-		if (req.getMethod() == "GET")
-			msg = { req.getHeader("accept"), req.getFile() };
-		if (msg.valid)
-			msg.send(client);
+		Request req{};
+
+		do
+		{
+			req = { client };
+			Response msg{};
+			if (req.getMethod() == "GET")
+				msg = { req.getHeader("accept"), req.getFile() };
+			if (msg.valid)
+				msg.send(client);
+		}
+		while (req.valid);
 
 		SDLNet_TCP_Close(client);
 		SDLNet_TCP_DelSocket(set, client);
