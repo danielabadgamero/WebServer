@@ -106,7 +106,7 @@ Response::Response(std::string type, std::string file)
 		content.pop_back();
 		status = 200;
 	}
-	std::string firstLine{ "HTTP/2 " + std::to_string(status) + "\nContent-type: " + type + "\nConnection: close\n\n" };
+	std::string firstLine{ "HTTP/2 " + std::to_string(status) + "\nContent-type: " + type + "\nConnection: keep-alive\n\n" };
 
 	for (std::string::const_reverse_iterator c{ firstLine.crbegin() }; c != firstLine.crend(); c++)
 		content.insert(content.begin(), *c);
