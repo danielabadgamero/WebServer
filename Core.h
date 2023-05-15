@@ -6,8 +6,8 @@
 namespace Core
 {
 	inline IPaddress ip{};
-	inline SDLNet_SocketSet set{};
 	inline TCPsocket server{};
+	inline SDLNet_SocketSet set{};
 
 	inline bool running{};
 
