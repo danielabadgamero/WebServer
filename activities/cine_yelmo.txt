@@ -1,1 +1,1 @@
-{"name":"yelmo","pos":{"lat":39.47751909636255,"long":-0.3955846166223554},"time":{"h":17,"m":30},"people":["Juan","Pablo","Sara","Pepa"]}
+{"name":"yelmo","pos":{"lat":39.47751909636255,"lon":-0.3955846166223554},"time":{"h":17,"m":30},"people":["j_de_juan","pepe26","pepA42"]}

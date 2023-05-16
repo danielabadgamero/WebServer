@@ -18,12 +18,12 @@ void printMsg(std::vector<char>& msg)
 	std::cout << '\n';
 }
 
-const char printIP(IPaddress ip)
+std::string getIPStr(IPaddress ip)
 {
 	unsigned int addr{ SDL_Swap32(ip.host) };
-	printf("%d.%d.%d.%d", (addr >> 24) & 0xff, (addr >> 16) & 0xff, (addr >> 8) & 0xff, addr & 0xff);
+	std::string ipStr{ std::format("{}.{}.{}.{}", (addr >> 24) & 0xff, (addr >> 16) & 0xff, (addr >> 8) & 0xff, addr & 0xff) };
 
-	return '\n';
+	return ipStr;
 }
 
 void Core::init()
@@ -51,7 +51,7 @@ void Core::loop()
 	{
 		SDLNet_TCP_AddSocket(set, client);
 		IPaddress* remoteIP{ SDLNet_TCP_GetPeerAddress(client) };
-		std::cout << "Client connected with IP: " << printIP(*remoteIP);
+		std::cout << "Client connected with IP: " << getIPStr(*remoteIP) << '\n';
 
 		Request req{};
 		
@@ -61,9 +61,9 @@ void Core::loop()
 			msg = { req.getHeader("accept"), req.getFile(), true };
 		else if (req.getMethod() == "POST")
 			if (req.getFile() == "/search.html")
-				msg = { req.getHeader("accept"), Activities::get(req.getBody()), false};
-			else if (req.getFile() == "/chat.html")
-				msg = { req.getHeader("accept"), Users::get(req.getBody()), false};
+				msg = { req.getHeader("accept"), Activities::get(req.getBody()), false };
+			else if (req.getFile() == "/users")
+				msg = { req.getHeader("accept"), Users::get(req.getBody()), false };
 		if (msg.valid)
 			msg.send(client);
 

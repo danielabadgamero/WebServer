@@ -98,10 +98,13 @@ body {
 
 #cards {
 	background-color: #333;
-	width: 45vw;
+	width: 30vw;
+	padding: 10px;
 	height: 75%;
 	border: solid 0;
 	border-radius: 40px;
+	display: flex;
+	justify-content: center;
 }
 
 input[name=s] {
@@ -115,18 +118,137 @@ input[name=s] {
 }
 
 .card {
-	width: 120px;
-	height: 100px;
+	width: 200px;
+	height: 120px;
 	background-color: #fe0;
 	margin: 20px;
 	padding: 10px;
-	border: solid 2px;
+	border: solid 0;
 	border-color: #111;
 	border-radius: 20px;
 	color: #111;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .title {
 	font-size: 1.2em;
 	font-weight: 500;
+}
+
+.content {
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.joinButton {
+	font-size: 1.1em;
+	color: #111;
+	background-color: #fe0;
+	border: solid 0;
+	border-radius: 5px;
+}
+
+#regButton {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 1.2em;
+	color: #111;
+	background-color: #fe0;
+	border: solid 0;
+	border-radius: 5px;
+}
+
+#logButton {
+	position: absolute;
+	top: 20px;
+	left: 120px;
+	font-size: 1.2em;
+	color: #111;
+	background-color: #fe0;
+	border: solid 0;
+	border-radius: 5px;
+}
+
+#regButton:hover {
+	cursor: pointer
+}
+
+#logButton:hover {
+	cursor: pointer
+}
+
+#regButton:disabled {
+	display: none;
+}
+
+#logButton:disabled {
+	display: none;
+}
+
+.form {
+	position: absolute;
+	width: 40vw;
+	height: 40vh;
+	left: 30vw;
+	top: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 100px;
+	gap: 20px;
+	background-color: #000;
+	border-radius: 20px;
+	opacity: 0.9;
+	border: solid 0;
+	z-index: 2;
+}
+
+.logForm {
+	font-size: 1.1em;
+	height: 30px;
+	width: 80%;
+	background-color: #fe0;
+	color: #000;
+	padding-left: 10px;
+	border: 0;
+	border-radius: 15px;
+}
+
+::placeholder {
+	color: #666;
+}
+
+*:focus {
+	outline: none;
+}
+
+.close {
+	border: solid 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 1.5em;
+	color: #ddd;
+	background: none;
+}
+
+.close:hover {
+	cursor: pointer;
+	color: #fff;
+}
+
+.formTitle {
+	font-size: 2em;
+}
+
+.submit {
+	background-color: #fe0;
+	color: #111;
+	font-size: 1.2em;
+	border: solid 0;
+	border-radius: 15px;
 }

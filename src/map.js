@@ -80,15 +80,24 @@ let searchButton = document.getElementById("search");
 let pinButton = document.getElementById("pin");
 
 chatButton.addEventListener("click", () => {
-	window.location.href = "chat.html";
+	if (logged_in)
+		window.location.href = "chat.html";
+	else
+		alert("Inicia sesi&oacute;n para entrar al chat");
 });
 
 searchButton.addEventListener("click", () => {
-	window.location.href = "search.html";
+	if (logged_in)
+		window.location.href = "search.html";
+	else
+		alert("Inicia sesi&oacute;n para entrar a las actividades");
 });
 
 pinButton.addEventListener("click", () => {
-	window.location.href = "pin.html";
+	if (logged_in)
+		window.location.href = "pin.html";
+	else
+		alert("Inicia sesi&oacute;n para entrar a las ubicaciones");
 });
 
 updateTiles();
