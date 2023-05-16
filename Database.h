@@ -11,6 +11,7 @@ namespace Activities
 namespace Users
 {
 	std::string get(std::string);
+	std::string add(std::string);
 }
 
 #endif

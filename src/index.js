@@ -32,10 +32,26 @@ function login(form) {
 }
 
 function register(form) {
-	if (form.children[1].value.length == 0 || form.children[2].value.length == 0 || form.children[3].value.length == 0) {
+	if (form.children[1].value.length == 0 || form.children[2].value.length == 0 || form.children[3].value.length == 0 || form.children[4].value.length == 0) {
 		alert("Formulario inv\u{E1}lido");
 		return;
 	}
+	if (form.children[3].value != form.children[4].value) {
+		alert("Las contrase\u00f1as no coinciden");
+		return;
+	}
+	let http = new XMLHttpRequest();
+	http.open("POST", "register", false);
+	http.send("usr=" + form.children[2].value + ",pass=" + form.children[3].value + ",name=" + form.children[1].value);
+	user = { pass: form.children[3].value, name: form.children[1].value, friends: [] };
+	localStorage.setItem("logged", true);
+	document.body.removeChild(form);
+	let userAvatar = document.createElement('img');
+	userAvatar.src = "/img/user.png";
+	userAvatar.style.position = "absolute";
+	userAvatar.style.top = "10px";
+	userAvatar.style.right = "10px";
+	document.body.appendChild(userAvatar);
 }
 
 function showLogin() {
@@ -85,6 +101,11 @@ function showRegister() {
 	form.appendChild(document.createElement('span'));
 	form.lastChild.className = "formTitle";
 	form.lastChild.innerHTML = "Registrarse";
+
+	form.appendChild(document.createElement('input'));
+	form.lastChild.setAttribute("name", "name");
+	form.lastChild.setAttribute("placeholder", "Nombre");
+	form.lastChild.className = "logForm";
 
 	form.appendChild(document.createElement('input'));
 	form.lastChild.setAttribute("name", "usr");
