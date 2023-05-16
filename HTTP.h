@@ -1,15 +1,17 @@
 #ifndef HTTP_H
 #define HTTP_H
 
+#include <map>
 #include <string>
 #include <vector>
-#include <map>
+#include <fstream>
 
 #include <SDL_net.h>
 
 class Request
 {
 private:
+	std::vector<char> content{};
 	std::map<const std::string, std::string> headers{};
 	std::string method{};
 	std::string file{};
@@ -19,6 +21,7 @@ public:
 	const std::string& getFile() const;
 	const std::string& getMethod() const;
 	const std::string& getBody() const;
+	void write(std::ofstream&) const;
 	Request();
 	Request(TCPsocket);
 };

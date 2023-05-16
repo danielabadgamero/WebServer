@@ -80,21 +80,21 @@ let searchButton = document.getElementById("search");
 let pinButton = document.getElementById("pin");
 
 chatButton.addEventListener("click", () => {
-	if (logged_in)
+	if (localStorage.getItem("logged") == "true")
 		window.location.href = "chat.html";
 	else
 		alert("Inicia sesi&oacute;n para entrar al chat");
 });
 
 searchButton.addEventListener("click", () => {
-	if (logged_in)
+	if (localStorage.getItem("logged") == "true")
 		window.location.href = "search.html";
 	else
 		alert("Inicia sesi&oacute;n para entrar a las actividades");
 });
 
 pinButton.addEventListener("click", () => {
-	if (logged_in)
+	if (localStorage.getItem("logged") == "true")
 		window.location.href = "pin.html";
 	else
 		alert("Inicia sesi&oacute;n para entrar a las ubicaciones");

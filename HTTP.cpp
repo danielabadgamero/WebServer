@@ -1,8 +1,8 @@
+#include <map>
 #include <vector>
 #include <string>
 #include <fstream>
 #include <filesystem>
-#include <map>
 
 #include <SDL_net.h>
 
@@ -40,11 +40,14 @@ const std::string& Request::getBody() const
 	return body;
 }
 
+void Request::write(std::ofstream& log) const
+{
+	log.write(content.data(), content.size());
+}
+
 Request::Request() {}
 Request::Request(TCPsocket client)
 {
-	std::vector<char> content{};
-
 	int bytes{};
 	do if (SDLNet_CheckSockets(Core::set, 0))
 		content.push_back(0), (bytes = SDLNet_TCP_Recv(client, &content.back(), 1));

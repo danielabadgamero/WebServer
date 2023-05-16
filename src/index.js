@@ -1,5 +1,6 @@
 let registerButton = document.createElement('button');
 let loginButton = document.createElement('button');
+let user;
 
 function close(form) {
 	document.body.removeChild(form);
@@ -19,9 +20,15 @@ function login(form) {
 		alert("Nombre de usuario o contrase\u00f1a incorrectos");
 		return;
 	}
-	let user = JSON.parse(http.responseText);
+	user = JSON.parse(http.responseText);
 	localStorage.setItem("logged", true);
 	document.body.removeChild(form);
+	let userAvatar = document.createElement('img');
+	userAvatar.src = "/img/user.png";
+	userAvatar.style.position = "absolute";
+	userAvatar.style.top = "10px";
+	userAvatar.style.right = "10px";
+	document.body.appendChild(userAvatar);
 }
 
 function register(form) {
@@ -117,7 +124,7 @@ function showRegister() {
 	document.body.appendChild(form);
 }
 
-if (!localStorage.getItem("logged")) {
+if (localStorage.getItem("logged") == "false") {
 	registerButton.setAttribute("id", "regButton");
 	loginButton.setAttribute("id", "logButton");
 	registerButton.innerHTML = "Registrar";
@@ -136,4 +143,12 @@ if (!localStorage.getItem("logged")) {
 		registerButton.disabled = true;
 		loginButton.disabled = true;
 	});
+}
+else {
+	let userAvatar = document.createElement('img');
+	userAvatar.src = "/img/user.png";
+	userAvatar.style.position = "absolute";
+	userAvatar.style.top = "10px";
+	userAvatar.style.right = "10px";
+	document.body.appendChild(userAvatar);
 }

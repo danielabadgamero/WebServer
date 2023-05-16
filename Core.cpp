@@ -26,18 +26,25 @@ std::string getIPStr(IPaddress ip)
 	return ipStr;
 }
 
+static void logInfo(std::string data)
+{
+	std::cout << data;
+	Core::log << data;
+	Core::log.flush();
+}
+
 void Core::init()
 {
+	log.open("log.txt");
 	SDLNet_Init();
 	set = SDLNet_AllocSocketSet(1);
 
-	std::cout << "Starting server\n";
+	logInfo("Starting server\n");
 	SDLNet_ResolveHost(&ip, NULL, 80);
-	std::cout << "Host resolved\n";
+	logInfo("Host resolved\n");
 	server = SDLNet_TCP_Open(&ip);
-	std::cout << "Socket opened\n";
-	std::cout << SDLNet_GetError();
-
+	logInfo("Socket opened\n");
+	
 	Map::init();
 
 	running = true;
@@ -51,11 +58,12 @@ void Core::loop()
 	{
 		SDLNet_TCP_AddSocket(set, client);
 		IPaddress* remoteIP{ SDLNet_TCP_GetPeerAddress(client) };
-		std::cout << "Client connected with IP: " << getIPStr(*remoteIP) << '\n';
+		logInfo("Client connected with IP: " + getIPStr(*remoteIP) + '\n');
 
 		Request req{};
 		
 		req = { client };
+		req.write(log);
 		Response msg{};
 		if (req.getMethod() == "GET")
 			msg = { req.getHeader("accept"), req.getFile(), true };
@@ -74,6 +82,7 @@ void Core::loop()
 
 void Core::quit()
 {
+	log.close();
 	SDLNet_FreeSocketSet(set);
 	SDLNet_Quit();
 }
