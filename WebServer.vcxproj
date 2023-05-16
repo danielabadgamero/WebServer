@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Database.cpp" />
     <ClCompile Include="HTTP.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Core.cpp" />
@@ -146,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core.h" />
+    <ClInclude Include="Database.h" />
     <ClInclude Include="HTTP.h" />
     <ClInclude Include="Map.h" />
   </ItemGroup>

@@ -58,6 +58,8 @@ void Core::loop()
 		Response msg{};
 		if (req.getMethod() == "GET")
 			msg = { req.getHeader("accept"), req.getFile() };
+		else if (req.getMethod() == "POST")
+			msg = { req.getHeader("accept") };
 		if (msg.valid)
 			msg.send(client);
 
