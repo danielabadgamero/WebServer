@@ -115,8 +115,8 @@ input[name=s] {
 }
 
 .card {
-	width: 20%;
-	height: 10%;
+	width: 120px;
+	height: 100px;
 	background-color: #fe0;
 	margin: 20px;
 	padding: 10px;
