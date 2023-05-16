@@ -31,7 +31,7 @@ private:
 public:
 	bool valid{};
 	Response();
-	Response(std::string, std::string);
+	Response(std::string, std::string, bool);
 	void send(TCPsocket) const;
 };
 

@@ -9,6 +9,7 @@
 #include "Core.h"
 #include "Map.h"
 #include "HTTP.h"
+#include "Database.h"
 
 void printMsg(std::vector<char>& msg)
 {
@@ -57,9 +58,12 @@ void Core::loop()
 		req = { client };
 		Response msg{};
 		if (req.getMethod() == "GET")
-			msg = { req.getHeader("accept"), req.getFile() };
+			msg = { req.getHeader("accept"), req.getFile(), true };
 		else if (req.getMethod() == "POST")
-			msg = { req.getHeader("accept") };
+			if (req.getFile() == "/search.html")
+				msg = { req.getHeader("accept"), Activities::get(req.getBody()), false };
+			else if (req.getFile() == "/chat.html")
+				msg = { req.getHeader("accept"), Users::get(req.getBody()), false };
 		if (msg.valid)
 			msg.send(client);
 

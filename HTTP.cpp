@@ -93,22 +93,28 @@ Request::Request(TCPsocket client)
 }
 
 Response::Response() {}
-Response::Response(std::string type, std::string file)
+Response::Response(std::string type, std::string file, bool isFile)
 {
 	std::string name{ file };
 	if (file == "/") name = "index.html";
 	else if (file.starts_with("/tiles/")) Map::getTile(file);
 
-	if (!std::filesystem::exists("src/" + name)) status = 404;
+	if (!std::filesystem::exists("src/" + name) && isFile) status = 404;
 	else
 	{
-		std::ifstream in{ "src/" + name, std::ios::binary };
-		while (!in.eof()) content.push_back(0), in.read(&content.back(), 1);
-		if (!content.empty())
-			content.pop_back();
+		if (isFile)
+		{
+			std::ifstream in{ "src/" + name, std::ios::binary };
+			while (!in.eof()) content.push_back(0), in.read(&content.back(), 1);
+			if (!content.empty())
+				content.pop_back();
+		}
+		else
+			for (const char& c : file)
+				content.push_back(c);
 		status = 200;
 	}
-	std::string firstLine{ "HTTP/2 " + std::to_string(status) + "\nContent-type: " + type + "\nConnection: keep-alive\n\n" };
+	std::string firstLine{ "HTTP/2 " + std::to_string(status) + "\nContent-type: " + type + "\nConnection: close\n\n" };
 
 	for (std::string::const_reverse_iterator c{ firstLine.crbegin() }; c != firstLine.crend(); c++)
 		content.insert(content.begin(), *c);
