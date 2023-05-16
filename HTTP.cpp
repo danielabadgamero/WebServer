@@ -69,7 +69,11 @@ Request::Request(TCPsocket client)
 	
 	int bodyStart{};
 	for (int i{ 1 }; i != lines.size(); i++)
-		if (lines[i].empty()) { bodyStart = i; break; }
+		if (lines[i].empty() || lines[i] == "\r")
+		{
+			bodyStart = i + 1;
+			break;
+		}
 		else
 		{
 			std::vector<std::string> line(1);

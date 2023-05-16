@@ -8,7 +8,7 @@
 
 std::string Activities::get(std::string src)
 {
-	std::string result{};
+	std::string result{ "[" };
 	int ASCII{};
 	int character{};
 	std::vector<std::string> args(1);
@@ -35,11 +35,16 @@ std::string Activities::get(std::string src)
 	{
 		if (entry.path().string().find(elems["s"]))
 		{
-			std::ifstream actIn{ entry.path() };
-			actIn >> result;
+			std::ifstream actIn{ entry.path().string() };
+			std::string content{};
+			actIn >> content;
+			result.append(content);
+			result.push_back(',');
 		}
 	}
-
+	if (result.back() == ',')
+		result.pop_back();
+	result.push_back(']');
 	return result;
 }
 

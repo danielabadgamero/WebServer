@@ -61,9 +61,9 @@ void Core::loop()
 			msg = { req.getHeader("accept"), req.getFile(), true };
 		else if (req.getMethod() == "POST")
 			if (req.getFile() == "/search.html")
-				msg = { req.getHeader("accept"), Activities::get(req.getBody()), false };
+				msg = { req.getHeader("accept"), Activities::get(req.getBody()), false};
 			else if (req.getFile() == "/chat.html")
-				msg = { req.getHeader("accept"), Users::get(req.getBody()), false };
+				msg = { req.getHeader("accept"), Users::get(req.getBody()), false};
 		if (msg.valid)
 			msg.send(client);
 
