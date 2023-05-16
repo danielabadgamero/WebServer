@@ -33,7 +33,7 @@ std::string Activities::get(std::string src)
 
 	for (const std::filesystem::directory_entry& entry : std::filesystem::directory_iterator("./activities/"))
 	{
-		if (entry.path().string().find(elems["s"]) != std::string::npos)
+		if (entry.path().filename().string().find(elems["s"]) != std::string::npos)
 		{
 			std::ifstream actIn{ entry.path().string() };
 			std::string content{};
