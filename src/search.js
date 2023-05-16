@@ -1,8 +1,7 @@
 let form = document.getElementById("searchForm");
-let frame = document.getElementById("results");
+let frame = document.getElementById("cards");
 let coords;
 
-navigator.geolocation.getCurrentPosition((pos) => { coords = pos.coords });
 
 // https://stackoverflow.com/questions/18883601/function-to-calculate-distance-between-two-coordinates
 function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
@@ -24,14 +23,21 @@ function deg2rad(deg) {
 }
 
 form.onsubmit = (e) => {
+	frame.innerHTML = "";
+	navigator.geolocation.getCurrentPosition((pos) => { coords = pos.coords });
 	e.preventDefault();
 	let http = new XMLHttpRequest();
 	http.open("POST", "search.html", false);
-	http.send("s=" + form.lastChild.nodeValue);
+	http.send("s=" + form.children[0].value);
 	let obj = JSON.parse(http.responseText);
 
-	let card = document.createElement('div');
 	obj.forEach((act) => {
-		console.log(act);
+		let card = document.createElement('div');
+		let title = document.createElement('span');
+		title.className = "title";
+		card.className = "card";
+		title.innerHTML = act.name.toUpperCase();
+		card.append(title);
+		frame.append(card);
 	})
 };
