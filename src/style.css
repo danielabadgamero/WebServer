@@ -159,6 +159,7 @@ input[name=s] {
 	background-color: #fe0;
 	border: solid 0;
 	border-radius: 5px;
+	padding: 5px;
 }
 
 #logButton {
@@ -170,6 +171,7 @@ input[name=s] {
 	background-color: #fe0;
 	border: solid 0;
 	border-radius: 5px;
+	padding: 5px;
 }
 
 #regButton:hover {
@@ -251,4 +253,9 @@ input[name=s] {
 	font-size: 1.2em;
 	border: solid 0;
 	border-radius: 15px;
+	padding: 10px;
+}
+
+.submit:hover {
+	cursor: pointer;
 }

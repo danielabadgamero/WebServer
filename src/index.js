@@ -3,18 +3,28 @@ let logged_in = localStorage.getItem("logged");
 let registerButton = document.createElement('button');
 let loginButton = document.createElement('button');
 
-function login(form) {
-
-}
-
-function register(form) {
-
-}
-
 function close(form) {
 	document.body.removeChild(form);
 	registerButton.disabled = false;
 	loginButton.disabled = false;
+}
+
+function login(form) {
+	if (form.children[1].value.length == 0 || form.children[2].value.length == 0) {
+		alert("Formulario inv\u{E1}lido");
+		return;
+	}
+	let http = new XMLHttpRequest();
+	http.open("POST", "users", false);
+	http.send("usr=" + form.children[1].value + ",pass=" + form.children[2].value);
+	console.log(http.responseText);
+}
+
+function register(form) {
+	if (form.children[1].value.length == 0 || form.children[2].value.length == 0 || form.children[3].value.length == 0) {
+		alert("Formulario inv\u{E1}lido");
+		return;
+	}
 }
 
 function showLogin() {
@@ -47,6 +57,7 @@ function showLogin() {
 
 	let submit = document.createElement('button');
 	submit.className = "submit";
+	submit.innerHTML = "Continuar";
 	form.appendChild(submit);
 	submit.addEventListener('click', (e) => {
 		e.preventDefault();
@@ -92,6 +103,7 @@ function showRegister() {
 
 	let submit = document.createElement('button');
 	submit.className = "submit";
+	submit.innerHTML = "Continuar";
 	form.appendChild(submit);
 	submit.addEventListener('click', (e) => {
 		e.preventDefault();

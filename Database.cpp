@@ -73,7 +73,7 @@ std::string Users::get(std::string usr)
 	for (const std::string& arg : args)
 		elems.emplace(arg.substr(0, arg.find('=')), arg.substr(arg.find('=') + 1));
 
-	if (!elems.contains("usr") || elems.contains("pass"))
+	if (!elems.contains("usr") || !elems.contains("pass"))
 		return "";
 
 	std::ifstream userIn{ "./users/" + elems["usr"] + ".txt" };
@@ -83,7 +83,7 @@ std::string Users::get(std::string usr)
 	size_t pos{ 9 };
 	std::string pass{};
 	while (result[pos] != '"')
-		pass.push_back(result[pos]);
+		pass.push_back(result[pos]), pos++;
 
 	if (pass == elems["pass"])
 		return result;
