@@ -1,5 +1,3 @@
-let logged_in = localStorage.getItem("logged");
-
 let registerButton = document.createElement('button');
 let loginButton = document.createElement('button');
 
@@ -17,7 +15,13 @@ function login(form) {
 	let http = new XMLHttpRequest();
 	http.open("POST", "users", false);
 	http.send("usr=" + form.children[1].value + ",pass=" + form.children[2].value);
-	console.log(http.responseText);
+	if (http.responseText.length == 0) {
+		alert("Nombre de usuario o contrase\u00f1a incorrectos");
+		return;
+	}
+	let user = JSON.parse(http.responseText);
+	localStorage.setItem("logged", true);
+	document.body.removeChild(form);
 }
 
 function register(form) {
@@ -113,7 +117,7 @@ function showRegister() {
 	document.body.appendChild(form);
 }
 
-if (!logged_in) {
+if (!localStorage.getItem("logged")) {
 	registerButton.setAttribute("id", "regButton");
 	loginButton.setAttribute("id", "logButton");
 	registerButton.innerHTML = "Registrar";
