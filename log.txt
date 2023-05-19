@@ -1,493 +1,2311 @@
 Starting server
 Host resolved
 Socket opened
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
 GET / HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET /index.js HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /map.js HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET /img/chat.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/logo.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/search.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/pin.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
 GET /style.css HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: */*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://localhost/
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/user.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/9.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+ Client connected with IP: 127.0.0.1
+GET /tiles/4/10/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+ Client connected with IP: 127.0.0.1
+GET /tiles/4/11/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+ Client connected with IP: 127.0.0.1
+GET /tiles/4/4/3.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+ Client connected with IP: 127.0.0.1
+GET /tiles/4/5/3.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+ Client connected with IP: 127.0.0.1
+GET / HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
+
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET /style.css HTTP/1.1
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: text/css,*/*;q=0.1
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: style
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
 GET /index.js HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: */*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
 GET /map.js HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: */*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
 GET /img/logo.png HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: image/avif,image/webp,*/*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
 GET /img/chat.png HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: image/avif,image/webp,*/*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
 GET /img/search.png HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: image/avif,image/webp,*/*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
 GET /img/pin.png HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: image/avif,image/webp,*/*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-Client connected with IP: 192.168.1.1
-GET /tiles/4/7/4.png HTTP/1.1
-Host: 88.17.79.37
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET / HTTP/1.1
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: none
+Sec-Fetch-User: ?1
 
-Client connected with IP: 192.168.1.1
-GET /tiles/4/8/4.png HTTP/1.1
-Host: 88.17.79.37
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+ Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET /index.js HTTP/1.1
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
+Accept: */*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
-GET /tiles/4/5/4.png HTTP/1.1
-Host: 88.17.79.37
+Client connected with IP: 127.0.0.1
+GET /map.js HTTP/1.1
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
+Accept: */*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
-GET /tiles/4/9/4.png HTTP/1.1
-Host: 88.17.79.37
+Client connected with IP: 127.0.0.1
+GET /style.css HTTP/1.1
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
+Accept: text/css,*/*;q=0.1
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: style
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
-Client connected with IP: 192.168.1.1
-GET /tiles/4/10/4.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/11/4.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/12/4.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/13/4.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/4/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/5/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/6/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/7/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/8/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/9/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/6/4.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/10/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/4/4.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /img/user.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/11/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/12/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/13/5.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/4/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/5/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/6/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/7/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/8/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/9/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/10/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/11/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/12/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/13/6.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/4/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/5/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/6/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/7/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
-Client connected with IP: 192.168.1.1
-GET /tiles/4/8/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
- Client connected with IP: 192.168.1.1
-GET /tiles/4/9/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
- Client connected with IP: 192.168.1.1
-GET /tiles/4/10/7.png HTTP/1.1
-Host: 88.17.79.37
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
-Accept: image/avif,image/webp,*/*
-Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Referer: http://88.17.79.37/
-
- Client connected with IP: 192.168.1.1
+Client connected with IP: 127.0.0.1
 GET /tiles/4/11/7.png HTTP/1.1
-Host: 88.17.79.37
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: image/avif,image/webp,*/*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
- Client connected with IP: 192.168.1.1
-GET /tiles/4/12/7.png HTTP/1.1
-Host: 88.17.79.37
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/7.png HTTP/1.1
+Host: localhost
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
 Accept: image/avif,image/webp,*/*
 Accept-Language: en-GB,en;q=0.5
-Accept-Encoding: gzip, deflate
+Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Referer: http://88.17.79.37/
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
 
- Client connected with IP: 192.168.1.1
-Client connected with IP: 65.20.157.254
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/logo.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/user.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/logo.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/chat.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/search.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /img/pin.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/6.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/8.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/10.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/7.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/10/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/11/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/12/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/13/4.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/4/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/5/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/6/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/7/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/8/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+Client connected with IP: 127.0.0.1
+GET /tiles/4/9/5.png HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept: image/avif,image/webp,*/*
+Accept-Language: en-GB,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Referer: http://localhost/
+Sec-Fetch-Dest: image
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
