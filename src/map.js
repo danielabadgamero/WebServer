@@ -32,7 +32,7 @@ function updateTiles() {
 				}
 			});
 			if (!exists) {
-				img.setAttribute("class", "tile");
+				img.classList.add("tile");
 				img.draggable = false;
 				img.style.left = `${startX * 256 + (camera.x % 256)}px`;
 				img.style.top = `${startY * 256 + (camera.y % 256)}px`;

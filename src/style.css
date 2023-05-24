@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+	--yellow-bg: #e0d100;
+}
+
 .logo {
 	margin: auto;
 	display: flex;
 	justify-content: center;
+	background-color: var(--yellow-bg);
+	width: 100%;
+	height: 20vh;
+	z-index: 1;
+	position: absolute;
 }
 
 #logo_img {
-	opacity: 0.5;
 	height: 20vh;
 	width: 50vh;
 	object-fit: cover;
@@ -27,7 +35,7 @@
 }
 
 .tile {
-	z-index: -1;
+	z-index: 0;
 	padding: 0;
 	margin: 0;
 	user-select: none;
@@ -39,7 +47,7 @@
 	position: absolute;
 	margin: auto;
 	width: 100vw;
-	bottom: 10vh;
+	bottom: 5vh;
 	display: flex;
 	justify-content: center;
 	gap: 10vw;
@@ -56,12 +64,11 @@ body {
 }
 
 #button_bar > img {
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	padding: 5px;
 	border-radius: 10px;
 	border: solid 0;
 	user-select: none;
-	user-drag: none;
 }
 
 #button_bar > img:hover {
@@ -75,7 +82,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 2em;
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	color: #000;
 	margin: 20px;
 	padding: 0 20px 0 20px;
@@ -120,7 +127,7 @@ input[name=s] {
 .card {
 	width: 200px;
 	height: 120px;
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	margin: 20px;
 	padding: 10px;
 	border: solid 0;
@@ -145,7 +152,7 @@ input[name=s] {
 .joinButton {
 	font-size: 1.1em;
 	color: #111;
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	border: solid 0;
 	border-radius: 5px;
 }
@@ -156,7 +163,7 @@ input[name=s] {
 	left: 20px;
 	font-size: 1.2em;
 	color: #111;
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	border: solid 0;
 	border-radius: 5px;
 	padding: 5px;
@@ -168,7 +175,7 @@ input[name=s] {
 	left: 120px;
 	font-size: 1.2em;
 	color: #111;
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	border: solid 0;
 	border-radius: 5px;
 	padding: 5px;
@@ -213,7 +220,7 @@ input[name=s] {
 	font-size: 1.1em;
 	height: 30px;
 	width: 80%;
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	color: #000;
 	padding-left: 10px;
 	border: 0;
@@ -248,7 +255,7 @@ input[name=s] {
 }
 
 .submit {
-	background-color: #fe0;
+	background-color: var(--yellow-bg);
 	color: #111;
 	font-size: 1.2em;
 	border: solid 0;
