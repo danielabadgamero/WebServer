@@ -45,4 +45,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="src\chat.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\index.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\map.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\search.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\search.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\style.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="chat.js">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

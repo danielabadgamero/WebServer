@@ -20,10 +20,6 @@ function getDistance(lat1, lon1, lat2, lon2) {
 	return d;
 }
 
-function addActivity() {
-
-}
-
 form.onsubmit = (e) => {
 	frame.innerHTML = "";
 	navigator.geolocation.getCurrentPosition((pos) => { coords = pos.coords }, () => { coords = { lat: 39.482087872995955, lon: -0.36355921220606224 } });

@@ -151,6 +151,15 @@
     <ClInclude Include="HTTP.h" />
     <ClInclude Include="Map.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="chat.js" />
+    <None Include="src\chat.html" />
+    <None Include="src\index.html" />
+    <None Include="src\map.js" />
+    <None Include="src\search.html" />
+    <None Include="src\search.js" />
+    <None Include="src\style.css" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

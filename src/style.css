@@ -259,3 +259,16 @@ input[name=s] {
 .submit:hover {
 	cursor: pointer;
 }
+
+.container {
+	display: flex;
+	position: relative;
+	top: 20vh;
+	padding: 40px;
+	border: 0 solid;
+	border-radius: 40px;
+	margin: auto;
+	background-color: #000;
+	width: 40vw;
+	height: 60vh;
+}

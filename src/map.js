@@ -9,6 +9,7 @@ let mouse = {
 	y: 0
 }
 
+let showLocations = false;
 let mouseDown = false;
 let map = document.getElementById("map");
 
@@ -80,24 +81,16 @@ let searchButton = document.getElementById("search");
 let pinButton = document.getElementById("pin");
 
 chatButton.addEventListener("click", () => {
-	if (localStorage.getItem("logged") == "true")
-		window.location.href = "chat.html";
-	else
-		alert("Inicia sesi&oacute;n para entrar al chat");
+	window.location.href = "chat.html";
 });
 
 searchButton.addEventListener("click", () => {
-	if (localStorage.getItem("logged") == "true")
-		window.location.href = "search.html";
-	else
-		alert("Inicia sesi&oacute;n para entrar a las actividades");
+	window.location.href = "search.html";
+
 });
 
 pinButton.addEventListener("click", () => {
-	if (localStorage.getItem("logged") == "true")
-		window.location.href = "pin.html";
-	else
-		alert("Inicia sesi&oacute;n para entrar a las ubicaciones");
+	showLocations = true;
 });
 
 updateTiles();
