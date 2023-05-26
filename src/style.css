@@ -270,6 +270,7 @@ input[name=s] {
 .container {
 	display: flex;
 	position: relative;
+	flex-direction: column;
 	top: 20vh;
 	padding: 40px;
 	border: 0 solid;
@@ -278,4 +279,24 @@ input[name=s] {
 	background-color: #000;
 	width: 40vw;
 	height: 60vh;
+	gap: 20px;
+}
+
+.user {
+	height: 80px;
+	background-color: var(--yellow-bg);
+	width: 100%;
+	border-radius: 10px;
+	font-size: 1.2em;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+}
+
+.name {
+	padding-left: 20px;
+}
+
+i {
+	font-weight: 300;
 }
