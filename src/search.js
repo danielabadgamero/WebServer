@@ -1,7 +1,6 @@
 let form = document.getElementById("searchForm");
 let frame = document.getElementById("cards");
-let coords;
-
+let coords = { lat: 0, lon: 0 };
 function deg2rad(deg) {
 	return deg * (Math.PI / 180)
 }
@@ -22,7 +21,7 @@ function getDistance(lat1, lon1, lat2, lon2) {
 
 form.onsubmit = (e) => {
 	frame.innerHTML = "";
-	navigator.geolocation.getCurrentPosition((pos) => { coords = pos.coords }, () => { coords = { lat: 39.482087872995955, lon: -0.36355921220606224 } });
+	navigator.geolocation.getCurrentPosition((pos) => { coords = pos.coords }, () => { coords = { lat: 39.482087872995955, lon: -0.36355921220606224 }});
 	e.preventDefault();
 	let http = new XMLHttpRequest();
 	http.open("POST", "search.html", false);
@@ -42,10 +41,9 @@ form.onsubmit = (e) => {
 		time.className = "content";
 		button.className = "joinButton";
 		button.innerHTML = "Unirse";
-		button.onclick = addActivity;
 		title.innerHTML = act.name.toUpperCase();
 		people.innerHTML = act.people[0] + " y " + (act.people.length - 1) + " m&aacute;s";
-		distance.innerHTML = "A " + Math.round(getDistance(coords.lat, coords.lon, act.pos.lat, act.pos.lon) * 10) / 10 + "km";
+		distance.innerHTML = "A " + Math.round(getDistance(coords.latitude, coords.longitude, act.pos.lat, act.pos.lon) * 10) / 10 + "km";
 		time.innerHTML = act.time.h + ":" + act.time.m;
 		card.className = "card";
 		card.append(title);

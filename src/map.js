@@ -90,7 +90,14 @@ searchButton.addEventListener("click", () => {
 });
 
 pinButton.addEventListener("click", () => {
-	showLocations = true;
+	if (showLocations) {
+		showLocations = false;
+		let pins = document.getElementById("pins");
+		pins.innerHTML = "";
+	}
+	else {
+		showLocations = true;
+	}
 });
 
 updateTiles();

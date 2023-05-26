@@ -70,6 +70,10 @@ void Core::loop()
 		else if (req.getMethod() == "POST")
 			if (req.getFile() == "/search.html")
 				msg = { req.getHeader("accept"), Activities::get(req.getBody()), false };
+			else if (req.getFile() == "/users")
+				msg = { req.getHeader("accept"), Users::get(req.getBody()), false };
+			else if (req.getFile() == "/register")
+				msg = { req.getHeader("accept"), Users::add(req.getBody()), false};
 		if (msg.valid)
 			msg.send(client);
 
