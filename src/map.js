@@ -9,7 +9,6 @@ let mouse = {
 	y: 0
 }
 
-let showLocations = false;
 let mouseDown = false;
 let map = document.getElementById("map");
 
@@ -90,14 +89,7 @@ searchButton.addEventListener("click", () => {
 });
 
 pinButton.addEventListener("click", () => {
-	if (showLocations) {
-		showLocations = false;
-		let pins = document.getElementById("pins");
-		pins.innerHTML = "";
-	}
-	else {
-		showLocations = true;
-	}
+	alert("Mostrar posición de las actividades");
 });
 
 updateTiles();
